@@ -30,3 +30,7 @@
     '1/01/18  00:15:00 PM'
 
     '%-m/%-d/%y %I:%M:S %p'
+    
+Run command example: 
+formatTimeseries(['practice.csv'], delta=15, timeformat='%m/%d/%Y %I:%M %p', savefile='practice1.csv').head()
+
